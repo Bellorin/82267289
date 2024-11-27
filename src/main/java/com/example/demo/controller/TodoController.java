@@ -12,7 +12,7 @@ public class TodoController {
     }
 
     @GetMapping("/api/v1/user")
-    public String home() {
+    public String getUserId() {
         return "82267289";
     }
 }
