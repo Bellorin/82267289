@@ -20,7 +20,7 @@ spec:
             readOnly: true
                           
       volumes:
-      - name: cloud-sample-volume
+      - name: 82267289-volume
         persistentVolumeClaim:
           claimName: cepg-aa-std-pvc
       - name: application-properties
